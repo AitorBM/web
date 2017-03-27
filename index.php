@@ -16,11 +16,13 @@
 
     <div class="container-fluid"><!-- Contenedor -->
 
-        <div class="row"><!-- Menú -->
+
+
+        <div id="arriba" class="row"><!-- Menú -->
             <div class="col-sm-12">
                 <nav>
                     <ul>
-                        <li><a href="./index.html">Inicio</a></li>
+                        <li><a href="index.php">Inicio</a></li>
                         <li><a href="./fotos.html">Fotos</a></li>
                         <li><a href="./info.html">Info.</a></li>
                         <li><a href="./contacto.html">Contacto</a></li>
@@ -28,6 +30,8 @@
                 </nav>
             </div>
         </div> <!-- /Menú -->
+
+        <div class="contenido">
 
         <!-- Cuerpo -->
         <div class="row"><!-- Primer párrafo -->
@@ -120,12 +124,13 @@
 
         <!-- /Cuerpo -->
 
+        </div>
         <!-- Pié de página -->
         <div class="row">
             <div class="col-sm-12">
                 <footer>
+                    <a href="#arriba">Subir</a>
                     <span id="copyright">&copy; 2017 Aitor Bringas</span>
-
                 </footer>
             </div>
         </div> <!-- /Pié de página -->
